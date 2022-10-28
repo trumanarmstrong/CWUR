@@ -4,18 +4,23 @@ Of all the universities in the world, which are the best?
 
 Ranking universities is a difficult, political, and controversial practice. There are hundreds of different national and international university ranking systems, many of which disagree with each other. This dataset contains three global university rankings from very different places.
 
-The Times Higher Education World University Ranking is widely regarded as one of the most influential and widely observed university measures. Founded in the United Kingdom in 2010, it has been criticized for its commercialization and for undermining non-English-instructing institutions.
 
-The Academic Ranking of World Universities, also known as the Shanghai Ranking, is an equally influential ranking. It was founded in China in 2003 and has been criticized for focusing on raw research power and for undermining humanities and quality of instruction.
 
-The Center for World University Rankings, is a less well know listing that comes from Saudi Arabia, it was founded in 2012.
+Section 1 - Introduction: The introduction should introduce your general research question and your data (where it came from, how it was collected, what are the cases, what are the variables, etc.).
 
-How do these rankings compare to each other?
-Are the various criticisms levied against these rankings fair or not?
-How does your alma mater fare against the world?
+Section 2 - Data: Place your data in the `/data` folder, and add dimensions and codebook to the README in that folder. Then print out the output of and codebook to the README in that folder. Then print out the output of glimpse() or skim() of your data frame. Add the README for the data, the codebook, and the output of glimpse() or skim() to the end of your proposal.
 
-To further extend your analyses, we've also included two sets of supplementary data.
+Section 3 - Data analysis plan:
 
-The first of these is a set of data on educational attainment around the world. It comes from The World Data Bank and comprises information from the UNESCO Institute for Statistics and the Barro-Lee Dataset. How does national educational attainment relate to the quality of each nation's universities?
+Any outcomes (response, Y) and predictor (explanatory, X) variables you will use to answer your question.
 
-The second supplementary dataset contains information about public and private direct expenditure on education across nations. This data comes from the National Center for Education Statistics. It represents expenditure as a percentage of gross domestic product. Does spending more on education lead to better international university rankings?
+The comparison groups you will use, if applicable.
+
+Very preliminary exploratory data analysis, including some summary statistics and visualizations, along with some explanation on how they help you learn more about your data. (You can add to these later as you work on your project.)
+
+The method(s) that you believe will be useful in answering your question(s). (You can update these later as you work on your project.)
+
+What results from these specific statistical methods are needed to support your hypothesized answer?
+
+DIMENSIONS: 14 columns, 2,200 rows
+
